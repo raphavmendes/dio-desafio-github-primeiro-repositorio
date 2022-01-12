@@ -1,0 +1,30 @@
+Link para download do Git: https://git-scm.com/
+
+ O Git Bash é um terminal extendido para utilização do Git.
+
+Principais Comandos. Exemplos:
+
+ - Para configuração do Git 
+ * git config --global user.name "John Doe"
+ * git config --global user.email johndoe@example.com
+
+ - Para inicialização: 
+ * git init
+
+ - Para Clonar:
+ * git clone +link da pasta no GitHub
+
+ - Adicionar arquivos:
+ * git add . (adiciona todos os arquivos)
+ * git add +nome do arquivo com a extensão (adiciona um arquivo específico)
+
+ - Ver em que estado estão os arquivos na pasta:
+ * git status
+ - Ver exatamente o que foi alterado:
+ * git diff
+
+ - Para comitar:
+ * git commit -m "mensagem"
+ * git commit -a -m "mensagem" (comita os todos os arquivos mesmo não estando no estado de stage)
+ 
+ 
